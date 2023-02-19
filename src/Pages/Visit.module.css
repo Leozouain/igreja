@@ -1,0 +1,22 @@
+.banner{
+    background-image: url('https://images.unsplash.com/photo-1548705085-101177834f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8ZmFtaWx5fHx8fHx8MTY3NjgyNzIxOQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080') ;
+    width: 100vw;
+    height: 35vh;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}

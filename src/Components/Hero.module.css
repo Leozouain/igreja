@@ -1,0 +1,84 @@
+/* Estilo padrão para .heroSection */
+.heroSection {
+  height: 85vh;
+  width: 100vw;
+  background: url('https://lakecitysmallgroups.files.wordpress.com/2017/11/prayer-e1510943911313.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.heroImage {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.heroContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.heroContent h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.heroContent p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.heroContent a {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .heroContent h1 {
+    font-size: 2.5rem;
+  }
+
+  .heroContent p {
+    font-size: 1.2rem;
+  }
+
+  .heroContent a {
+    font-size: 1.2rem;
+  }
+}
+
+.my-btn {
+  font-size: 1.5rem;
+}
+
+/* Estilos para telas menores que 768px (tamanho do bootstrap para dispositivos móveis) */
+@media (max-width: 767.98px) {
+  .my-btn {
+    font-size: 1.2rem;
+  }
+  /* Mudança da classe do botão para btn-md */
+  .my-btn.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* Estilos para telas maiores que 768px */
+@media (min-width: 768px) {
+  /* Mudança da classe do botão para btn-md */
+  .myBtn.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+  }
+  .heroSection {
+    height: 60vh;
+  }
+}
+
+
+

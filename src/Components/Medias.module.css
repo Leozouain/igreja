@@ -1,0 +1,103 @@
+/* .leadershipSection {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.leadershipCard {
+  width: 250px;
+  margin: 0 10px;
+}
+
+.leadershipCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.youtubeCard {
+  width: 250px;
+  margin: 0 10px;
+}
+
+.youtubeCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .leadershipCard, .youtubeCard {
+    width: 100%;
+    margin: 10px 0;
+  }
+} */
+
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ width: 100vw;
+
+
+}
+
+.image {
+  height: 25vh;
+  /* Set the height to match the height of the background image */
+  background-size: cover; /* Ensure the image covers the entire div */
+  margin-bottom: 20px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imageText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    flex-direction: row;
+  }
+
+  .image {
+    width: 35vw;
+   
+
+
+  }
+}
+
+@media (max-width: 768px) {
+  .imageText {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .imageText {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .imageText {
+    font-size: 0.8rem;
+  }
+}

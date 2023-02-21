@@ -17,7 +17,7 @@ export default function Live() {
                 </a>
       </div>
       <div className="row align-items-center">
-        <a href="#" className="btn btn-primary">
+        <a href="https://www.youtube.com/" target={"_blank"} className="btn btn-primary">
           LIVE SERMONS
         </a>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import styles from "./Hero.module.css"
 
 export default function Hero() {
@@ -10,7 +11,7 @@ export default function Hero() {
           <div className={styles.heroContent}>
             <h1>Welcome</h1>
             <p>Join us for worship, Bible study, and fellowship. All are welcome!</p>
-            <a href="/visit" className={`btn btn-primary btn-lg ${styles.myBtn}`}>Plan Your Visit</a>
+            <Link to="/visit" className={`btn btn-primary btn-lg ${styles.myBtn}`}>Plan Your Visit</Link>
           </div>
         </Container>
       </div>
